@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<div id="app">{{first_name+last_name}}</div>-->
+<!--<div id="app">{{first_name+ ' ' + last_name}}</div>-->
+<!--<div id="app">{{first_name}} {{last_name}}</div>-->
+<div id="app">{{counter * 2}}</div>
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            first_name: "first",
+            last_name: "last",
+            counter: 1
+        }
+    })
+</script>
+</body>
+</html>
