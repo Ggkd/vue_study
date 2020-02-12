@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+<!--    <a v-bind:href="redirectUrl">去B站</a>-->
+
+    <!--简写-->
+    <a :href="redirectUrl">去B站</a>
+
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            redirectUrl: "https://www.bilibili.com/"
+        }
+    })
+</script>
+</body>
+</html>

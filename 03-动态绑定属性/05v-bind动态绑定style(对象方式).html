@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+<!--    <h2 style="font-size: 20px">哈哈哈哈</h2>-->
+
+<!--    必须加单引号，否则作为一个常量处理-->
+<!--    <h2 :style="{fontSize: '30px'}">哈哈哈哈</h2>-->
+
+    <h2 :style="{fontSize: Size}">哈哈哈哈</h2>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            Size: "50px"
+        }
+    })
+</script>
+</body>
+</html>

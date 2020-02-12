@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .test {
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+<!--    <h2 :class="{test: isTest, test2: isTest2}">哈哈哈哈</h2>-->
+
+<!--    可以和其他类共存-->
+<!--    <h2 class="other" :class="{test: isTest, test2: isTest2}">哈哈哈哈</h2>-->
+
+<!--    可以使用方法来获取类-->
+    <h2 class="other" :class="getClass()">哈哈哈哈</h2>
+    <button v-on:click="btnClick">切换颜色</button>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            isTest: true,
+            isTest2: true
+        },
+        methods: {
+            btnClick: function () {
+                this.isTest = !this.isTest
+            },
+            getClass: function () {
+                return {test: this.isTest, test2: this.isTest2}
+            }
+        }
+    })
+</script>
+</body>
+</html>

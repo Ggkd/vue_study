@@ -5,35 +5,29 @@
     <title>Title</title>
 </head>
 <body>
-
 <div id="app">
-    当前数字：{{counter}}
-<!--    <button v-on:click="counter++">+</button>-->
-<!--    <button v-on:click="counter--">-</button>-->
-
+    <h2>{{Counter}}</h2>
 <!--    <button v-on:click="add">+</button>-->
 <!--    <button v-on:click="sub">-</button>-->
 
+
 <!--    语法糖-->
-    <button @click="add">+</button>
-    <button @click="sub">-</button>
+        <button @click="add">+</button>
+        <button @click="sub">-</button>
 </div>
-
-
 <script src="../js/vue.js"></script>
-
 <script>
     const app = new Vue({
-        el: "#app",
+        el: '#app',
         data: {
-            counter: 1
+            Counter: 1
         },
         methods: {
-            add : function () {
-                this.counter ++
+            add: function () {
+                this.Counter ++
             },
-            sub : function () {
-                this.counter--
+            sub: function () {
+                this.Counter--
             }
         }
     })

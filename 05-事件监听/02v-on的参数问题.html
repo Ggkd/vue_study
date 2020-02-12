@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+<!--    事件调用时没有传参-->
+    <button @click="btn1">按钮1</button>
+    <button @click="btn1()">按钮1</button>
+
+<!--    在事件定义时，写方法时省略小括号，但是方法本身需要参数，这时 vue会把浏览器生成的event作为参数传入-->
+    <button @click="btn2(123)">按钮2</button>
+    <button @click="btn2()">按钮2</button>
+    <button @click="btn2">按钮2</button>
+
+<!--    方法继续要参数和event-->
+    <button @click="btn3(123, $event)">按钮3</button>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            Counter: 1
+        },
+        methods: {
+            btn1: function () {
+                console.log("btn1")
+            },
+            btn2: function (a) {
+                console.log(a)
+            },
+            btn3: function (b, event) {
+                console.log(b);
+                console.log(event)
+            }
+        }
+    })
+</script>
+</body>
+</html>
