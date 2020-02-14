@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <cpn1 v-bind:cmovies="movies" :ctitle="title"></cpn1>
+</div>
+
+<template id="t2">
+    <div>
+       <h3>{{ctitle}}</h3>
+        <ul>
+            <li v-for="item in cmovies">{{item}}</li>
+        </ul>
+    </div>
+</template>
+
+<script src="../js/vue.js"></script>
+<script>
+    const cpn1 = {
+        template: "#t2",
+        data(){
+            return {}
+        },
+        // props:["ctitle", "cmovies"]     // 通过数组，必须加引号
+        props: {
+            // 指定类型
+            // ctitle :{
+                // type: String,
+            // }
+            // 设置默认值；； 要求必须传
+            ctitle : {
+                default: "哈哈哈哈",
+                required: true
+            },
+            // 类型为数组或对象，默认值必须用函数
+            cmovies: {
+                type: Array,
+                default(){
+                    return []
+                }
+            }
+        }
+    };
+
+    const app = new Vue({
+        el: '#app',
+        data: {
+            title: "哈哈哈哈哈",
+            movies: ["海贼王", "数码宝贝", "七龙珠"]
+        },
+        components: {
+            cpn1
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <cpn1></cpn1>
+    <cpn2></cpn2>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    // 1.全局注册
+    Vue.component(
+    "cpn1",{template:
+        `<div>
+                        <h4>标题</h4>
+                        <label>哈哈哈哈</label>
+                   </div>`}
+    );
+
+    // 根组件
+    const app = new Vue({
+        el: '#app',
+        components: {
+            cpn2:  {template: `<div>
+                        <h4>标题</h4>
+                        <label>呵呵呵呵</label>
+                   </div>`}
+        }
+    });
+</script>
+</body>
+</html>

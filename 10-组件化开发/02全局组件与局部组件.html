@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <my-cpn></my-cpn>
+    <my-cpn></my-cpn>
+    <cpn></cpn>
+</div>
+
+<div id="app2">
+    <cpn></cpn>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    // 1.创建组件构造器
+    const cpnConstrut = Vue.extend({
+        template: `<div>
+                        <h4>标题</h4>
+                        <label>哈哈哈哈</label>
+                   </div>`
+    });
+    // 2.注册组件（全局组件）
+    // Vue.component("组件名",构造器)
+    // Vue.component("myCpn", cpnConstrut);    // 命名出错
+    Vue.component("my-cpn", cpnConstrut);
+    const app = new Vue({
+        el: '#app',
+        data: {
+            msg: "哈哈哈哈",
+            age : 0,
+            test: "aaa"
+        },
+        components: {
+            cpn: cpnConstrut
+        }
+    });
+    const app2 = new Vue({
+    })
+</script>
+</body>
+</html>

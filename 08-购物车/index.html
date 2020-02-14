@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <div v-if="books.length">
+        <table>
+            <thead>
+            <th></th>
+            <th>名称</th>
+            <th>价格</th>
+            <th>数量</th>
+            <th>操作</th>
+            </thead>
+            <tbody>
+            <tr v-for="(item, index) in books">
+                <td>{{index+1}}</td>
+                <td>{{item.name}}</td>
+                <td>{{item.price | getPrice}}</td>
+                <td>
+                    <button @click="sub(index)" :disabled="item.count <= 1">-</button>
+                    {{item.count}}
+                    <button @click="add(index)">+</button>
+                </td>
+                <td>
+                    <button @click="move(index)">移除</button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <h3>{{totalPrice | getPrice}}</h3>
+    </div>
+    <div v-else>
+        <h3>购物车为空</h3>
+    </div>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            books: [
+                {
+                    "name": "java",
+                    "count": 1,
+                    "price": 11.00,
+                },
+                {
+                    "name": "python",
+                    "count": 1,
+                    "price": 22.00
+                },
+                {
+                    "name": "go",
+                    "price": 33.00,
+                    "count": 1
+                }
+            ]
+        },
+        methods: {
+            add(index) {
+                this.books[index].count++
+            },
+            sub(index) {
+                this.books[index].count--
+            },
+            move(index) {
+                this.books.splice(index, 1)
+            }
+        },
+        computed: {
+            totalPrice() {
+                let price = 0;
+                for (let i = 0; i < this.books.length; i++) {
+                    price += this.books[i].price * this.books[i].count
+                }
+                return price
+            }
+        },
+        filters: {
+            getPrice(price) {
+                return "￥" + price.toFixed(2)
+            }
+        }
+    })
+</script>
+</body>
+</html>

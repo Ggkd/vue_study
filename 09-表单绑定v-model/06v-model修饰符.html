@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <input type="text" value="msg" v-model.lazy="msg">
+    {{msg}}
+
+    <input type="number" value="msg" v-model.number="age">
+    {{age}}--{{typeof age}}
+
+    <input type="text" v-model.trim="test">
+    {{test.trim()}}
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            msg: "哈哈哈哈",
+            age : 0,
+            test: "aaa"
+        }
+    })
+</script>
+</body>
+</html>

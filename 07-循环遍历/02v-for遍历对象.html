@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <ul>
+        <li v-for="item in info">{{item}}</li>
+    </ul>
+
+    <ul>
+        <li v-for="(value,key) in info">{{value}}--{{key}}</li>
+    </ul>
+
+    <ul>
+        <li v-for="(value,key, index) in info">{{value}}--{{key}}--{{index}}</li>
+    </ul>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+           info: {
+               "name": "luffy",
+               "age": 18,
+               "height": 188
+           }
+        }
+    })
+</script>
+</body>
+</html>

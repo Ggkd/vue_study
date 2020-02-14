@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <select v-model="fruit">
+        <option value="苹果">苹果</option>
+        <option value="香蕉">香蕉</option>
+        <option value="橘子">橘子</option>
+    </select>
+    <lable>选择的水果是：{{fruit}}</lable>
+
+
+    <select v-model="fruits" multiple>
+        <option value="苹果">苹果</option>
+        <option value="香蕉">香蕉</option>
+        <option value="橘子">橘子</option>
+    </select>
+    <lable>选择的水果是：{{fruits}}</lable>
+
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            fruit: "",
+            fruits: []
+        }
+    })
+</script>
+</body>
+</html>

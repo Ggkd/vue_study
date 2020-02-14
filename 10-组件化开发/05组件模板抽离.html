@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <cpn1></cpn1>
+</div>
+
+<!--通过script写模板-->
+<script type="text/x-template" id="t1">
+<div>
+    <h2>呵呵呵呵</h2>
+</div>
+</script>
+
+
+
+<!--通过template标签-->
+<template id="t2">
+    <div>
+        <h3>哈哈哈哈</h3>
+    </div>
+</template>
+
+<script src="../js/vue.js"></script>
+<script>
+
+    // 根组件
+    const app = new Vue({
+        el: '#app',
+        components: {
+            // cpn1:  {template: "#t1"}
+            cpn1:  {template: "#t2"}
+        }
+    });
+</script>
+</body>
+</html>

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd682af7-6411-41c5-8e39-bcb2b3cbc1ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-test/03-click.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-test/03-click.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +12,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -35,10 +34,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/06-条件判断" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/06-条件判断" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -60,6 +62,7 @@
       <workItem from="1581429641791" duration="4000" />
       <workItem from="1581486920593" duration="647000" />
       <workItem from="1581507370645" duration="1431000" />
+      <workItem from="1581664169240" duration="10801000" />
     </task>
     <servers />
   </component>
@@ -71,9 +74,10 @@
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="374" y="175" key="SettingsEditor/50.23.1630.1027@50.23.1630.1027" timestamp="1581403980993" />
-    <state x="530" y="260" key="search.everywhere.popup" timestamp="1581401721737">
-      <screen x="50" y="23" width="1630" height="1027" />
+    <state x="495" y="242" width="670" height="676" key="search.everywhere.popup" timestamp="1581680921244">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="495" y="242" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1581680921244" />
     <state x="530" y="260" key="search.everywhere.popup/50.23.1630.1027@50.23.1630.1027" timestamp="1581401721737" />
   </component>
 </project>

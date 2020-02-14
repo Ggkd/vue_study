@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <ul>
+        <li v-for="item in level">{{item}}</li>
+    </ul>
+    <button @click="btn">按钮</button>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+            el: '#app',
+            data: {
+                level : ["a", "b", "c", "d"]
+            },
+        methods: {
+            btn: function () {
+                // 是响应式：
+                // 1.push   从末尾添加
+                // this.level.push("aaa")
+                // this.level.push("aaa", "bbb")
+                // 2.pop    从末尾删除
+                // this.level.pop()
+                // 3.shift  从开头删除
+                // this.level.shift()
+                // 4.unshift   从开头添加
+                // this.level.unshift("aaa")
+                // this.level.unshift("aaa", "bbb")
+                // 5.splice     作用：
+                // 1. 删除： 第二参数传要删除的数量，没传就删除后面所有
+                // 2.替换： 第二参数传被替换的数量，第三个参数传要替换的元素
+                // 3.插入：第二参数传0， 第三个参数传插入的元素
+                // this.level.splice(1,2)
+                // this.level.splice(1,2,"aa", "bb", "cc")
+                // this.level.splice(1,0, "aa", "bb")
+                // 6.reverse
+                // this.level.reverse()
+
+
+                // 非响应式的：
+                // this.level[0] = "aaaa"
+                // 通过索引修改元素，可通过下面的方法
+                // Vue.set(this.level, 0, "aaa")
+                // this.level.splice(0,1, "aaa")
+            }
+        }
+        })
+</script>
+</body>
+</html>

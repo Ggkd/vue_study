@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <div v-if="user">
+        <label for="name">用户账号</label>
+        <input id="name" placeholder="用户账号" key="user">
+    </div>
+<!--                            当两个input的key不同时，就不会引用复用-->
+    <div v-else="email">
+        <label for="email">用户邮箱</label>
+        <input id="email" placeholder="用户邮箱" key="email">
+    </div>
+    <button @click="login">切换登录方式</button>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            user: true
+        },
+        methods: {
+            login: function () {
+                this.user = ! this.user
+            }
+        }
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+<!--    v-if为false时，会从dom删除元素-->
+    <h2 v-if="isShow" id="if">哈哈哈哈</h2>
+<!--    v-show为false时，会在行内标签改style，display：none-->
+    <h2 v-show="isShow" id="show">哈哈哈哈</h2>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            isShow: true
+        }
+    })
+</script>
+</body>
+</html>
