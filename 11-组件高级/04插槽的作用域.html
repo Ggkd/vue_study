@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <cpn1>
+        <div slot-scope="slot">
+<!--            <span v-for="movie in slot.data">{{movie}} ++ </span>-->
+
+            <span>{{slot.data.join("--")}}</span>
+        </div>
+    </cpn1>
+</div>
+
+
+<template id="t2">
+    <div>
+    <slot :data="movies">
+        <ul>
+            <li v-for="movie in movies">{{movie}}</li>
+        </ul>
+    </slot>
+    </div>
+</template>
+
+<script src="../js/vue.js"></script>
+<script>
+
+    const app = new Vue({
+        el: '#app',
+        components: {
+            cpn1: {
+                template: "#t2",
+                data(){
+                    return {
+                        movies: ["海贼王", "数码宝贝", "七龙珠"]
+                    }
+                }
+            }
+        }
+    });
+</script>
+</body>
+</html>

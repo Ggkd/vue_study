@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <cpn1 @cpn-click="getCpnClick"></cpn1>
+</div>
+
+<template id="t2">
+    <div>
+        <button v-for="movie in movies" @click="movieClick(movie)">{{movie}}</button>
+    </div>
+</template>
+
+<script src="../js/vue.js"></script>
+<script>
+    const cpn1 = {
+        template: "#t2",
+        data(){
+            return {
+                movies: ["海贼王", "数码宝贝", "七龙珠"]
+            }
+        },
+        methods: {
+            movieClick(item) {
+                this.$emit("cpn-click", item)
+            }
+        }
+    };
+
+    const app = new Vue({
+        el: '#app',
+        components: {
+            cpn1
+        },
+        methods: {
+            getCpnClick(item){
+                console.log(item)
+            }
+        }
+    });
+</script>
+</body>
+</html>

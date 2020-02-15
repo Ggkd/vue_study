@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <cpn1><button slot="left">返回</button></cpn1>
+    <cpn1><button slot="right">搜索</button></cpn1>
+</div>
+
+
+<template id="t2">
+    <div>
+        <slot name="left"><button>左边跟我一起画个龙</button></slot>
+        <slot name="middle"><button>胸前比划一个郭富城</button></slot>
+        <slot name="right"><button>右边跟我一起画彩虹</button></slot>
+    </div>
+</template>
+
+<script src="../js/vue.js"></script>
+<script>
+
+    const app = new Vue({
+        el: '#app',
+        data:{
+            fNum: 0
+        },
+        components: {
+            cpn1: {
+                template: "#t2"
+            }
+        }
+    });
+</script>
+</body>
+</html>

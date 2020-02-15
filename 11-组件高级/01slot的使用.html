@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <cpn1><button>哈哈哈</button></cpn1>
+    <cpn1> <span>哈哈哈哈哈哈</span> </cpn1>
+    <cpn1><span>哈哈哈哈哈哈</span> <span>哈哈哈哈哈哈</span> </cpn1>
+    <cpn1></cpn1>
+    <cpn1></cpn1>
+</div>
+
+
+<template id="t2">
+    <div>
+<!--        <slot></slot>-->
+
+        <slot><button>按钮1</button><button>按钮2</button></slot>
+    </div>
+</template>
+
+<script src="../js/vue.js"></script>
+<script>
+
+    const app = new Vue({
+        el: '#app',
+        data:{
+            fNum: 0
+        },
+        components: {
+            cpn1: {
+                template: "#t2"
+            }
+        }
+    });
+</script>
+</body>
+</html>

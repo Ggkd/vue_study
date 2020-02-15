@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <cpn1 v-show="isShow"></cpn1>       // 每个模板的作用域 都是他自己
+</div>
+
+
+<template id="t2">
+    <div>
+        会不会显示            // 每个模板的作用域 都是他自己
+    </div>
+</template>
+
+<script src="../js/vue.js"></script>
+<script>
+
+    const app = new Vue({
+        el: '#app',
+        data:{
+            isShow: true
+        },
+        components: {
+            cpn1: {
+                template: "#t2",
+                data(){
+                    return {
+                        isShow: true
+                    }
+                }
+            }
+        }
+    });
+</script>
+</body>
+</html>

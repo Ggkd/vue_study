@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <cpn1 ref="c1"></cpn1>
+    <button @click="btn">按钮</button>
+</div>
+
+<template id="t2">
+    <div>
+        {{msg}}
+    </div>
+</template>
+
+<script src="../js/vue.js"></script>
+<script>
+
+    const app = new Vue({
+        el: '#app',
+        data:{
+            fNum: 0
+        },
+        components: {
+            cpn1:{
+                template: "#t2",
+                data(){
+                    return {
+                        msg: "子组件"
+                    }
+                }
+            }
+        },
+        methods: {
+            btn(){
+                // console.log(this.$children[0].msg)
+                console.log(this.$refs.c1.msg)
+            }
+        }
+    });
+</script>
+</body>
+</html>

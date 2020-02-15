@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <label>fnum:{{fNum}}</label>
+    <input type="text" v-model="fNum">
+    <cpn1 @num-input="getNum" :num="fNum" ></cpn1>
+</div>
+
+<template id="t2">
+    <div>
+        <label>当前数字：{{num}}</label>
+        <input type="text" :value="num" @input="numInput">
+    </div>
+</template>
+
+<script src="../js/vue.js"></script>
+<script>
+    const cpn1 = {
+        template: "#t2",
+        props: {
+          num: Number
+        },
+        methods:{
+            numInput(event){
+                this.num = event.target.value;
+                this.$emit("num-input", this.num)
+            }
+        }
+    };
+
+    const app = new Vue({
+        el: '#app',
+        data:{
+            fNum: 0
+        },
+        components: {
+            cpn1
+        },
+        methods: {
+            getNum(num){
+                this.fNum = parseFloat(num)
+            },
+        }
+    });
+</script>
+</body>
+</html>
