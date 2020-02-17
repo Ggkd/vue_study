@@ -2,224 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd682af7-6411-41c5-8e39-bcb2b3cbc1ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_ajv@6.11.0@ajv/node_modules/fast-deep-equal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_ajv@6.11.0@ajv/node_modules/fast-json-stable-stringify" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_ajv@6.11.0@ajv/node_modules/json-schema-traverse" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_ajv@6.11.0@ajv/node_modules/uri-js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_ansi-styles@3.2.1@ansi-styles/node_modules/color-convert" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_asn1@0.2.4@asn1/node_modules/safer-buffer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_bcrypt-pbkdf@1.0.2@bcrypt-pbkdf/node_modules/tweetnacl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_chalk@2.4.2@chalk/node_modules/ansi-styles" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_chalk@2.4.2@chalk/node_modules/escape-string-regexp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_chalk@2.4.2@chalk/node_modules/supports-color" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_color-convert@1.9.3@color-convert/node_modules/color-name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_combined-stream@1.0.8@combined-stream/node_modules/delayed-stream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_css-loader@2.0.2@css-loader/node_modules/icss-utils" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_css-loader@2.0.2@css-loader/node_modules/loader-utils" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_css-loader@2.0.2@css-loader/node_modules/lodash" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_css-loader@2.0.2@css-loader/node_modules/postcss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_css-loader@2.0.2@css-loader/node_modules/postcss-modules-extract-imports" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_css-loader@2.0.2@css-loader/node_modules/postcss-modules-local-by-default" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_css-loader@2.0.2@css-loader/node_modules/postcss-modules-scope" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_css-loader@2.0.2@css-loader/node_modules/postcss-modules-values" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_css-loader@2.0.2@css-loader/node_modules/postcss-value-parser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_css-loader@2.0.2@css-loader/node_modules/schema-utils" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_dashdash@1.14.1@dashdash/node_modules/assert-plus" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_ecc-jsbn@0.1.2@ecc-jsbn/node_modules/jsbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_ecc-jsbn@0.1.2@ecc-jsbn/node_modules/safer-buffer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_errno@0.1.7@errno/node_modules/prr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_file-loader@5.0.2@file-loader/node_modules/loader-utils" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_file-loader@5.0.2@file-loader/node_modules/schema-utils" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_form-data@2.3.3@form-data/node_modules/asynckit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_form-data@2.3.3@form-data/node_modules/combined-stream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_form-data@2.3.3@form-data/node_modules/mime-types" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_getpass@0.1.7@getpass/node_modules/assert-plus" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_har-validator@5.1.3@har-validator/node_modules/ajv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_har-validator@5.1.3@har-validator/node_modules/har-schema" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_http-signature@1.2.0@http-signature/node_modules/assert-plus" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_http-signature@1.2.0@http-signature/node_modules/jsprim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_http-signature@1.2.0@http-signature/node_modules/sshpk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_icss-utils@4.1.1@icss-utils/node_modules/postcss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_json5@1.0.1@json5/node_modules/minimist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_jsprim@1.4.1@jsprim/node_modules/assert-plus" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_jsprim@1.4.1@jsprim/node_modules/extsprintf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_jsprim@1.4.1@jsprim/node_modules/json-schema" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_jsprim@1.4.1@jsprim/node_modules/verror" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_less-loader@5.0.0@less-loader/node_modules/clone" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_less-loader@5.0.0@less-loader/node_modules/loader-utils" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_less-loader@5.0.0@less-loader/node_modules/pify" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_less@3.11.1@less/node_modules/clone" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_less@3.11.1@less/node_modules/errno" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_less@3.11.1@less/node_modules/graceful-fs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_less@3.11.1@less/node_modules/image-size" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_less@3.11.1@less/node_modules/mime" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_less@3.11.1@less/node_modules/mkdirp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_less@3.11.1@less/node_modules/promise" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_less@3.11.1@less/node_modules/request" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_less@3.11.1@less/node_modules/source-map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_less@3.11.1@less/node_modules/tslib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_loader-utils@1.2.3@loader-utils/node_modules/big.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_loader-utils@1.2.3@loader-utils/node_modules/emojis-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_loader-utils@1.2.3@loader-utils/node_modules/json5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_mime-types@2.1.26@mime-types/node_modules/mime-db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_mkdirp@0.5.1@mkdirp/node_modules/minimist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_postcss-modules-extract-imports@2.0.0@postcss-modules-extract-imports/node_modules/postcss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_postcss-modules-local-by-default@2.0.6@postcss-modules-local-by-default/node_modules/postcss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_postcss-modules-local-by-default@2.0.6@postcss-modules-local-by-default/node_modules/postcss-selector-parser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_postcss-modules-local-by-default@2.0.6@postcss-modules-local-by-default/node_modules/postcss-value-parser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_postcss-modules-scope@2.1.1@postcss-modules-scope/node_modules/postcss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_postcss-modules-scope@2.1.1@postcss-modules-scope/node_modules/postcss-selector-parser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_postcss-modules-values@2.0.0@postcss-modules-values/node_modules/icss-replace-symbols" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_postcss-modules-values@2.0.0@postcss-modules-values/node_modules/postcss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_postcss-selector-parser@6.0.2@postcss-selector-parser/node_modules/cssesc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_postcss-selector-parser@6.0.2@postcss-selector-parser/node_modules/indexes-of" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_postcss-selector-parser@6.0.2@postcss-selector-parser/node_modules/uniq" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_postcss@7.0.26@postcss/node_modules/chalk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_postcss@7.0.26@postcss/node_modules/source-map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_postcss@7.0.26@postcss/node_modules/supports-color" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_promise@7.3.1@promise/node_modules/asap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_request@2.88.2@request/node_modules/aws-sign2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_request@2.88.2@request/node_modules/aws4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_request@2.88.2@request/node_modules/caseless" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_request@2.88.2@request/node_modules/combined-stream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_request@2.88.2@request/node_modules/extend" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_request@2.88.2@request/node_modules/forever-agent" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_request@2.88.2@request/node_modules/form-data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_request@2.88.2@request/node_modules/har-validator" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_request@2.88.2@request/node_modules/http-signature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_request@2.88.2@request/node_modules/is-typedarray" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_request@2.88.2@request/node_modules/isstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_request@2.88.2@request/node_modules/json-stringify-safe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_request@2.88.2@request/node_modules/mime-types" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_request@2.88.2@request/node_modules/oauth-sign" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_request@2.88.2@request/node_modules/performance-now" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_request@2.88.2@request/node_modules/qs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_request@2.88.2@request/node_modules/safe-buffer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_request@2.88.2@request/node_modules/tough-cookie" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_request@2.88.2@request/node_modules/tunnel-agent" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_request@2.88.2@request/node_modules/uuid" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_schema-utils@1.0.0@schema-utils/node_modules/ajv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_schema-utils@1.0.0@schema-utils/node_modules/ajv-errors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_schema-utils@1.0.0@schema-utils/node_modules/ajv-keywords" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_schema-utils@2.6.4@schema-utils/node_modules/ajv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_schema-utils@2.6.4@schema-utils/node_modules/ajv-keywords" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_sshpk@1.16.1@sshpk/node_modules/asn1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_sshpk@1.16.1@sshpk/node_modules/assert-plus" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_sshpk@1.16.1@sshpk/node_modules/bcrypt-pbkdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_sshpk@1.16.1@sshpk/node_modules/dashdash" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_sshpk@1.16.1@sshpk/node_modules/ecc-jsbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_sshpk@1.16.1@sshpk/node_modules/getpass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_sshpk@1.16.1@sshpk/node_modules/jsbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_sshpk@1.16.1@sshpk/node_modules/safer-buffer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_sshpk@1.16.1@sshpk/node_modules/tweetnacl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_style-loader@1.1.3@style-loader/node_modules/loader-utils" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_style-loader@1.1.3@style-loader/node_modules/schema-utils" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_supports-color@5.5.0@supports-color/node_modules/has-flag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_supports-color@6.1.0@supports-color/node_modules/has-flag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_tough-cookie@2.5.0@tough-cookie/node_modules/psl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_tough-cookie@2.5.0@tough-cookie/node_modules/punycode" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_tunnel-agent@0.6.0@tunnel-agent/node_modules/safe-buffer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_uri-js@4.2.2@uri-js/node_modules/punycode" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_url-loader@3.0.0@url-loader/node_modules/loader-utils" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_url-loader@3.0.0@url-loader/node_modules/mime" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_url-loader@3.0.0@url-loader/node_modules/schema-utils" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_verror@1.10.0@verror/node_modules/assert-plus" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_verror@1.10.0@verror/node_modules/core-util-is" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/_verror@1.10.0@verror/node_modules/extsprintf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/ajv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/ajv-errors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/ajv-keywords" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/ansi-styles" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/asap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/asn1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/assert-plus" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/asynckit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/aws-sign2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/aws4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/bcrypt-pbkdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/big.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/caseless" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/chalk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/clone" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/color-convert" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/color-name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/combined-stream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/core-util-is" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/css-loader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/cssesc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/dashdash" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/delayed-stream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/ecc-jsbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/emojis-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/errno" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/escape-string-regexp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/extend" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/extsprintf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/fast-deep-equal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/fast-json-stable-stringify" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/file-loader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/forever-agent" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/form-data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/getpass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/graceful-fs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/har-schema" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/har-validator" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/has-flag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/http-signature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/icss-replace-symbols" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/icss-utils" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/image-size" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/indexes-of" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/is-typedarray" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/isstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/jsbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/json-schema" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/json-schema-traverse" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/json-stringify-safe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/json5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/jsprim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/less-loader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/loader-utils" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/lodash" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/mime" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/mime-db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/mime-types" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/minimist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/mkdirp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/oauth-sign" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/performance-now" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/pify" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/postcss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/postcss-modules-extract-imports" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/postcss-modules-local-by-default" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/postcss-modules-scope" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/postcss-modules-values" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/postcss-selector-parser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/postcss-value-parser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/promise" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/prr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/psl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/punycode" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/qs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/request" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/safe-buffer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/safer-buffer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/schema-utils" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/source-map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/sshpk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/style-loader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/supports-color" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/tough-cookie" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/tslib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/tunnel-agent" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/tweetnacl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/uniq" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/uri-js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/url-loader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/uuid" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack/01-webpack的使用/02-webpack的配置/node_modules/verror" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-vue_cli/testprojrct/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/14-vue_cli/testprojrct/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,8 +19,9 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="XSLT Stylesheet" />
-        <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -293,6 +81,7 @@
       <workItem from="1581664169240" duration="10879000" />
       <workItem from="1581745735612" duration="6481000" />
       <workItem from="1581826364146" duration="5238000" />
+      <workItem from="1581905858133" duration="2873000" />
     </task>
     <servers />
   </component>
