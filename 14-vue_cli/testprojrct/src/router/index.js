@@ -19,7 +19,21 @@ const routes = [
     },
     {
         path: "/home",
-        component: Home
+        component: Home,
+        children: [
+            {
+              path: "",
+              redirect: "news"
+            },
+            {
+                path: "news",
+                component: () => import("../components/HomeNews")
+            },
+            {
+                path: "message",
+                component: () => import("../components/HomeMessage")
+            }
+        ]
     },
     {
         path: "/about",
@@ -28,6 +42,10 @@ const routes = [
     {
         path: "/user/:userId",
         component: User
+    },
+    {
+        path: "/profile",
+        component: () => import("../components/Profile")
     }
 ];
 

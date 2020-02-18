@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bd682af7-6411-41c5-8e39-bcb2b3cbc1ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-vue_cli/testprojrct/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/14-vue_cli/testprojrct/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/components/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +81,7 @@
       <workItem from="1581745735612" duration="6481000" />
       <workItem from="1581826364146" duration="5238000" />
       <workItem from="1581905858133" duration="2873000" />
+      <workItem from="1581994906206" duration="1904000" />
     </task>
     <servers />
   </component>
