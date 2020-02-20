@@ -13,7 +13,32 @@
 
 <script>
     export default {
-        name: "Home"
+        name: "Home",
+        data(){
+            return {
+                path: "/home/news"
+            }
+        },
+        created() {
+            console.log("home created");
+        },
+        destroyed() {
+            console.log("home destroyed");
+        },
+
+        // 这两个函数，只有在保持了状态 使用了keep-alive时，才有效
+        activated() {
+            console.log("activated");
+            this.$router.push(this.path)
+        },
+        deactivated() {
+            console.log("deactivated");
+        },
+        beforeRouteLeave(to, from, next) {
+            console.log(this.$route.path);
+            this.path = this.$route.path;
+            next()
+        }
     }
 </script>
 

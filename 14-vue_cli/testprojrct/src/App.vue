@@ -17,7 +17,11 @@
 <!--        <router-link :to="{path: '/profile', query: {name: 'luffy', age: 11}}" tag="button" replace>我的</router-link>-->
                 <button @click="userClick">用户</button>
                 <button @click="profileClick">我的</button>
-        <router-view></router-view>
+
+        <keep-alive exclude="User,About">
+            <router-view></router-view>
+        </keep-alive>
+
 
     </div>
 </template>

@@ -4,7 +4,10 @@
     <list default="true" id="bd682af7-6411-41c5-8e39-bcb2b3cbc1ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/components/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/components/About.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/components/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/components/User.vue" beforeDir="false" afterPath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/components/User.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +18,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
         <option value="XSLT Stylesheet" />
         <option value="TypeScript File" />
-        <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="Vue Single File Component" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -41,23 +44,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/13打包/01-webpack的使用/02-webpack的配置/src/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/14-vue_cli/tabbar/src/assets/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/13打包/01-webpack的使用/02-webpack的配置/src/images" />
-      <recent name="$PROJECT_DIR$/13打包/01-webpack的使用" />
-      <recent name="$PROJECT_DIR$/10-组件化开发" />
-      <recent name="$PROJECT_DIR$/06-条件判断" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/13打包/01-webpack的使用/02-webpack的配置/src/js" />
       <recent name="$PROJECT_DIR$/13打包/01-webpack的使用/01-webpack的起步/src" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/14-vue_cli/tabbar/src/assets/img" />
+      <recent name="$PROJECT_DIR$/13打包/01-webpack的使用/02-webpack的配置/src/images" />
+      <recent name="$PROJECT_DIR$/13打包/01-webpack的使用" />
+      <recent name="$PROJECT_DIR$/10-组件化开发" />
+      <recent name="$PROJECT_DIR$/06-条件判断" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -82,6 +86,7 @@
       <workItem from="1581826364146" duration="5238000" />
       <workItem from="1581905858133" duration="2873000" />
       <workItem from="1581994906206" duration="1904000" />
+      <workItem from="1582169790608" duration="15617000" />
     </task>
     <servers />
   </component>

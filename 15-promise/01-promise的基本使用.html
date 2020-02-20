@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    // 什么时候使用promise？
+    // 一般情况下进行异步操作时，使用promise对异步操作进行封装
+    // new -> 构造函数(1.保存一些状态信息， 2.执行传入的函数)
+    // 在执行传入的回调函数时，会传入两个函数 resolve，reject， 这两个又是函数
+
+    // new Promise((resolve, reject) => {
+    //     setTimeout(() => {
+    //         // 成功时调用resolve
+    //         resolve(data)
+    //
+    //         // 失败时调用reject
+    //         reject(errdata)
+    //     })
+    // }).then(data => {
+    //
+    // }).catch(errdata => {
+    //
+    // })
+
+
+
+
+    new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve()
+        }, 1000)
+    }).then(()=> {
+        console.log("hello world")
+        console.log("hello world")
+        console.log("hello world")
+        console.log("hello world")
+
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                resolve()
+            }, 1000)
+        }).then( () => {
+            console.log("hello Vue")
+            console.log("hello Vue")
+            console.log("hello Vue")
+            console.log("hello Vue")
+        })
+    })
+
+</script>
+</body>
+</html>

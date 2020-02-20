@@ -20,11 +20,12 @@ const routes = [
     {
         path: "/home",
         component: Home,
+        meta: "首页",
         children: [
-            {
-              path: "",
-              redirect: "news"
-            },
+            // {
+            //   path: "",
+            //   redirect: "news"
+            // },
             {
                 path: "news",
                 component: () => import("../components/HomeNews")
@@ -37,15 +38,22 @@ const routes = [
     },
     {
         path: "/about",
-        component: About
+        component: About,
+        meta: "关于",
+        // beforeEnter: (to, from, next) => {
+        //     console.log("about---before")
+        //     next()
+        // }
     },
     {
         path: "/user/:userId",
-        component: User
+        component: User,
+        meta: "用户"
     },
     {
         path: "/profile",
-        component: () => import("../components/Profile")
+        component: () => import("../components/Profile"),
+        meta: "档案"
     }
 ];
 
@@ -53,6 +61,19 @@ const router = new VueRouter({
     routes,
     mode: "history",
     linkActiveClass: "active"
+});
+
+// 前置守卫(guard)
+router.beforeEach((to, from, next) => {
+    document.title = to.matched[0].meta
+    // console.log(to)
+    // console.log("before")
+    next()
+});
+
+// 后置钩子(hook)
+router.afterEach((to, from) => {
+    // console.log("after")
 });
 
 // 3.将router导出
