@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd682af7-6411-41c5-8e39-bcb2b3cbc1ae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/components/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/components/About.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/components/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/components/User.vue" beforeDir="false" afterPath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/components/User.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/14-vue_cli/testprojrct/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,14 +16,20 @@
         <option value="XSLT Stylesheet" />
         <option value="TypeScript File" />
         <option value="CSS File" />
-        <option value="Vue Single File Component" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1XeLJynZCWbfGKtjGEaGcRboaCN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -44,7 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/14-vue_cli/tabbar/src/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/18-project/mall/src/components/content" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -57,11 +58,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/14-vue_cli/tabbar/src/assets/img" />
-      <recent name="$PROJECT_DIR$/13打包/01-webpack的使用/02-webpack的配置/src/images" />
-      <recent name="$PROJECT_DIR$/13打包/01-webpack的使用" />
-      <recent name="$PROJECT_DIR$/10-组件化开发" />
-      <recent name="$PROJECT_DIR$/06-条件判断" />
+      <recent name="$PROJECT_DIR$/18-project/mall/src/components/content" />
+      <recent name="$PROJECT_DIR$/18-project/mall/src/views/home/childComps" />
+      <recent name="$PROJECT_DIR$/18-project/mall/src/components/common" />
+      <recent name="$PROJECT_DIR$/18-project/mall/src/network" />
+      <recent name="$PROJECT_DIR$/18-project/mall/src/views" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -86,7 +87,11 @@
       <workItem from="1581826364146" duration="5238000" />
       <workItem from="1581905858133" duration="2873000" />
       <workItem from="1581994906206" duration="1904000" />
-      <workItem from="1582169790608" duration="15617000" />
+      <workItem from="1582169790608" duration="15757000" />
+      <workItem from="1582260275806" duration="2000" />
+      <workItem from="1582264913241" duration="6446000" />
+      <workItem from="1582271926396" duration="5744000" />
+      <workItem from="1582292367518" duration="1408000" />
     </task>
     <servers />
   </component>
@@ -102,10 +107,10 @@
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="374" y="175" key="SettingsEditor/50.23.1630.1027@50.23.1630.1027" timestamp="1581403980993" />
-    <state x="495" y="242" width="670" height="676" key="search.everywhere.popup" timestamp="1581831816931">
+    <state x="495" y="242" width="670" height="676" key="search.everywhere.popup" timestamp="1582270473456">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="495" y="242" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1581831816931" />
+    <state x="495" y="242" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1582270473456" />
     <state x="530" y="260" key="search.everywhere.popup/50.23.1630.1027@50.23.1630.1027" timestamp="1581401721737" />
   </component>
 </project>
